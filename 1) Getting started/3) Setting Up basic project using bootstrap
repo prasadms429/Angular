@@ -1,0 +1,14 @@
+// In cli
+press ctrl+c to terminate from compilation
+npm install --save bootstrap@3    // To install bootstrap ( Bootstrap gives additional built in features of css )  and bootstrap@3 is version 3 of bootstrap, i.e, free.
+
+
+In angular.json
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",    // we should specify the path of bootstrap
+              "src/styles.css"
+            ],
+            
+            
+// In cli
+ng serve
