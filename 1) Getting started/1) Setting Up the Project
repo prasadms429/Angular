@@ -1,0 +1,7 @@
+npm install -g @angular/cli@latest    // 'g' means globally, cli- command line
+F:
+cd F:\LTI courses\Angular
+ng new my-first-app --no-strict   // To create new project we use this command, 'strict' means development method and here we use --no-strict that means, we are not following specific rules for development of this.
+cd my-first-app
+ng serve    // This creates server to run our application.
+http://localhost:4200/  // copy and paste this from cli to web browser
