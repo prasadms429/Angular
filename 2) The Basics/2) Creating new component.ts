@@ -2,7 +2,8 @@
 import { Component } from '@angular/core';  // Angular doesnt know about 'Component'. So, we should import it.
 
 @Component({    // To add some functionality
-  selector:'./server.component.html'  // we create one separate file inside 'server' called 'server.component.html' and write code inside it and link it to this file, using this code.
+  selector: 'app-server',
+  templateUrl:'./server.component.html'  // we create one separate file inside 'server' called 'server.component.html' and write code inside it and link it to this file, using this code.
 })
 
 export class ServerComponent {    // To export the class to 'index.html' to display in web page
