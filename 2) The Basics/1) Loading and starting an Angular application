@@ -1,0 +1,1 @@
+First angular executes main.ts, then it goes to app module.ts there is bootstrap app component and know about app components and runs it.
